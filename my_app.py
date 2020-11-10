@@ -15,6 +15,6 @@ project_list = [None] + ['SPSA',
 		     'Model Based Machine Learning for soccer']
 
 st.sidebar.header('Choose project:')
-agency = st.sidebar.selectbox('Agency', project_list)
+agency = st.sidebar.selectbox('Project', project_list)
 
 # make function that reads project abstracts
